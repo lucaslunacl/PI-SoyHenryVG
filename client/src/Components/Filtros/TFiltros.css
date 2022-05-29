@@ -1,0 +1,29 @@
+.filtros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    justify-content: flex-end;
+    margin: 0 auto;
+
+}
+
+
+.twoF{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(270deg, #e32e24, #dd740e);
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+.twoF p {
+    margin-right: 2px;
+    margin-left: 5px;
+}
+
+

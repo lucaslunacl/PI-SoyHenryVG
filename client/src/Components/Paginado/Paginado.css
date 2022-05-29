@@ -1,0 +1,41 @@
+.pag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-paginado{
+    padding: 5px;
+}
+
+.btn-paginado button, .next-prev{
+    padding: 15px;
+    font-size: 1rem;
+
+    transition: all 1s ease;
+}
+
+.btn-paginado button:hover{
+    background-color: red;
+    color: white;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+
+}
+
+.actual{
+    background: linear-gradient(270deg, #cd1515, #dd740e);
+    background-size: 200% 200%;
+    animation: navBackground 1s ease infinite;
+    color: white;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+
+}
+
+@keyframes navBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+li{
+    list-style:none;
+}

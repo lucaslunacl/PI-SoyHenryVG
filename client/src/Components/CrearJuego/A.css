@@ -1,0 +1,47 @@
+.form{
+    background-color: white;
+    box-shadow: 5px 5px 5px 2px  black;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: 85px;
+}
+
+.GP, .SelGP, .R-R, .N-I {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+    
+}
+
+input{
+    border: .2px solid black;
+}
+
+.btn-gp{
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.descL{
+    display: flex;
+    flex-direction: column;
+}
+
+.errores{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: red;
+    color:white;
+    padding: 5px;
+}

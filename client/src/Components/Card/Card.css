@@ -1,0 +1,38 @@
+.container {
+    margin-top: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 270px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 2px #e32e24;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    margin : .8rem;
+}
+
+.infoCard {
+    margin: -10px;
+}
+
+.tituloCard {
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 1px 2px white;
+}
+
+.img-card {
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}

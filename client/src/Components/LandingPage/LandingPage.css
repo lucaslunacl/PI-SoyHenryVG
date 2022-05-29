@@ -1,0 +1,55 @@
+
+.fondo{
+    background: linear-gradient(270deg, #e32e24, #dd740e);
+    background-size: 200% 200%;
+    animation: navBackground 15s ease infinite;
+    width: 100%;
+    background-image: url('../../Images/videogames-fondo.png');
+    position: absolute;
+
+    height: 100vh;
+
+}
+@keyframes navBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.datos{
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:35px;
+
+}
+.landing-Link{
+    margin: 0 auto;
+}
+
+.boton-acceso{
+    border:1px solid black;
+    background-color: transparent;
+    padding: .5rem;
+    margin-top: 15px;
+    width: 15rem;
+    font-size:1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all .5s ease;
+}
+
+.boton-acceso:hover{
+    cursor: pointer;
+    background-color:#dd740e;
+    color:  white;
+}
