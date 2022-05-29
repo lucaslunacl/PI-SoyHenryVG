@@ -85,7 +85,7 @@ router.post('/', async (req, res, next) => {
 // RUTA DELETE 
 router.delete('/:id', async(req, res, next) =>{
     const {id} = req.params
-
+//H
     try {
         if(id.includes('-')){
             const borrarJuego = await Games.destroy({
