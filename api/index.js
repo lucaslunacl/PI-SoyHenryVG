@@ -19,7 +19,7 @@
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
-//PARA DEPLOY PONGO FALSE
+
 // Syncing all the models at once.
 conn.sync({ force: false }).then(() => {
   server.listen(process.env.PORT, () => {
